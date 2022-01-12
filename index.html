@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? família=Roboto:ital,wght@0,100;0.300;0.400;0.500;0.700;0.900;1,1,1,1,1,1,100;1.300;1.400;1.500;1.700;1.900&display=swap" rel="stylesheet">
+    
+    <style>
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 96vh;
+    background-color: rgba(209, 209, 209, 0.795);
+}
+
+header{
+    background-color: aquamarine;
+    height: 103px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.caixadois {
+    height: 88%;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    background-color:white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.logo {position: absolute;left: 10px;}
+
+.logo img {
+    height: 46px;
+    width: 36px;
+    display: inline;
+}
+
+.aviso {display: inline;}
+
+.aviso h1 {
+    font-size: 1.5em;
+    display: inline;
+}
+
+h2{
+    color: rgb(107, 107, 107);
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+p {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 0.7em;
+}
+
+    </style>
+    
+    <title>Aviso de pendência de pagamento - Fusion Internet Wi-Fi</title>
+</head>
+
+<body>
+    <header>
+         
+        <div class="logo">
+            <img src="Logo Exemplo.gif" alt="Logo Exemplo">
+        </div>
+
+        
+            
+        <div class="aviso">
+            <h1>Aviso de Cobrança</h1><br>
+        </div>
+         
+    </header>
+
+    <div  class="caixaum">
+
+        <div class="caixadois">
+            <h2>Prezado(a) #cliente_razao#</h2><br>
+            <p>Consta em nossos registros o não pagamento da fatura do dia #areceber_data_vencimento#. O contato é para que o(a) Senhor(a) possa regularizar a sua situação financeira com a empresa.</p>
+            <p>Segue em anexo a fatura atualizada.</p> <br>
+            <p>
+                <b>Fatura:</b>  #areceber_numero#<br>
+                <b>Valor original:</b>  #areceber_valor_aberto#<br>
+                <b>Valor atual:</b> #areceber_valor_atual#<br>
+                <b>Vencimento:</b>  #areceber_data_vencimento#<br>
+            </p>
+            <br>
+            <p>Disponibilizamos uma segunda via atualizada desta fatura no site Central do Assinante<a href="https://ixc.fusioninternetwifi.com.br/central_assinante_web/login">(clique aqui para acessar o site)</a> <i>na Central do Assinante ou pelo nosso app Disponivel apenas para android</i> <a href="https://play.google.com/store/apps/details?id=br.com.fusioninternetwifi.ixc">(Clique aqui)</a> . <i>Qualquer dúvida entre em contato conosco Fone: (11) 95863-7940</i> <a href="https://api.whatsapp.com/send?phone=5511958637940&text=Ol%C3%A1">(aqui para ser direcionado ao Whatspp)</a> <i>ou pelo e-mail financeiro@fusioninternetwifi.com.br.</i> </p>
+            <br>
+            <P><b>Caso já tenha efetuado o pagamento desconsidere este aviso.</b></P>
+            <br>
+            <p><b>Gratos por sua atenção,<br>
+            Att.: Financeiro FUSION INTERNET WI-FI.</p></b>
+        </div>
+    </div>
+    
+</body>
+</html>

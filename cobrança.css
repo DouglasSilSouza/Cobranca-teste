@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 96vh;
+    background-color: rgba(209, 209, 209, 0.795);
+}
+
+header{
+    background-color: aquamarine;
+    height: 103px;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.caixadois {
+    height: 88%;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    background-color:white;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.logo {position: absolute;left: 10px;}
+
+.logo img {
+    height: 46px;
+    width: 36px;
+    display: inline;
+}
+
+.aviso {display: inline;}
+
+.aviso h1 {
+    font-size: 1.5em;
+    display: inline;
+}
+
+h2{
+    color: rgb(107, 107, 107);
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+p {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 0.7em;
+}
